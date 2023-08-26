@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User info.</title>
+</head>
+<body>
+    <form action="file" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>User name:</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>birth:</td>
+                <td><input type="date" name="birthday"></td>
+            </tr>
+<!--            <tr>-->
+<!--                <td>code:</td>-->
+<!--                <td><input type="password" name="password"></td>-->
+<!--            </tr>-->
+            <tr>
+                <td>gender:</td>
+                <td>
+                    <input type="radio" name="gender">Man
+                    <input type="radio" name="gender">Woman
+                </td>
+            </tr>
+<!--            <tr>-->
+<!--                <td>age:</td>-->
+<!--                <td><input type="text" name="age"></td>-->
+<!--            </tr>-->
+            <tr>
+                <td>interest:</td>
+                <td>
+                    <input type="checkbox" name="interests">A
+                    <input type="checkbox" name="interests">B
+                    <input type="checkbox" name="interests">C
+                    <input type="checkbox" name="interests">D
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="submit"></td>
+            </tr>
+            <tr>
+                <td><input type="file" name="file" multiple></td>
+            <tr>
+                <td colspan="2"><input type="submit" value="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
