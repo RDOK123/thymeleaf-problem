@@ -1,6 +1,6 @@
-package com.sun.ch03.controller;
+package com._sun.ch03.controller;
 
-import com.sun.ch03.model.Emploee;
+import com._sun.ch03.model.Emploee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.sun.ch03.model;
+package com._sun.ch03.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

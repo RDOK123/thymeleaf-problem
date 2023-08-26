@@ -1,4 +1,4 @@
-package com.sun.ch03;
+package com._sun.ch03;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
