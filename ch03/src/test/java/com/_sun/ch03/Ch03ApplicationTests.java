@@ -1,4 +1,4 @@
-package com.sun.ch03;
+package com._sun.ch03;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
